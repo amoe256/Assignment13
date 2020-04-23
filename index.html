@@ -1,1 +1,21 @@
-
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta charset="UTF-8">
+    <meta name="Author" content="Andreas Moe">
+    <meta name="Date" content="4/22/2020">
+    <meta name=Assignment content="Comp20-913">
+    <meta name="Description" content="Node.js/Mongo Assignment">
+    <title>
+        Stock Ticker
+    </title>
+</head>
+<body>
+    <h1>Stock Ticker</h1>
+    <form id="query" method="GET" action="http://localhost:8080">
+        <input type="text" name="company" placeholder="Search for a company"><br>
+        <input type="text" name="ticker" placeholder="Search for a ticker"><br>
+        <input type="submit" value="Submit">
+    </form> 
+    <div id="result"></div>
+</body>
